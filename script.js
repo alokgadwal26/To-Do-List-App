@@ -14,7 +14,7 @@ inputBox.addEventListener('keydown', (e) => {
 
 function addtask(){
     if (inputBox.value === "") {
-        alert("You Must Write Somthing!");
+        alert("You Must Write Something!");
       } else {
         let li = document.createElement("li");
         li.innerHTML = inputBox.value;
